@@ -1,0 +1,9 @@
+.env
+.git
+__pycache__
+*.pyc
+scraper
+tests
+eval
+data/raw
+requirements-dev.txt
