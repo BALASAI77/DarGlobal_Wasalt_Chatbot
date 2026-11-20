@@ -29,7 +29,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 RAW_OUT = ROOT / "data" / "raw" / "pages.jsonl"
 CHUNKS_OUT = ROOT / "data" / "chunks.jsonl"
-USER_AGENT = "AECC-TechAssignment-Bot/1.0 (+contact: prafull.shukla@aeccglobal.com; one-off educational data sample)"
+USER_AGENT = "DarWasaltAssignmentBot/1.0 (+contact: balasaimaruboyina0@gmail.com; educational one-off crawl)"
 HEADERS = {
     "User-Agent": USER_AGENT,
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
